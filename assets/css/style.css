@@ -866,6 +866,26 @@ footer {
     color: #A8C5E0;
 }
 
+/* ===== SELECT DO FORMULÁRIO ===== */
+.reg-select {
+    flex: 1;
+    min-width: 160px;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--white);
+    font-size: 0.9rem;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+}
+
+.reg-select option {
+    background: var(--el-dark);
+    color: var(--white);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 680px) {
     .nav-links {

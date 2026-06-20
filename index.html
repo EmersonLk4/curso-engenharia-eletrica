@@ -311,7 +311,13 @@
             <div class="reg-form">
                 <input type="text" id="nome" placeholder="Seu nome completo" />
                 <input type="email" id="email" placeholder="Seu melhor e-mail" />
-                <button class="btn-primary" onclick="handleSubmit()">Inscreva-se Grátis</button>
+                <select id="plano" class="reg-select">
+                    <option value="gratuito">Acesso Gratuito</option>
+                    <option value="completo">Acesso Completo — R$197</option>
+                </select>
+                <button class="btn-primary" id="btn-submit" onclick="handleSubmit()">
+                    Inscreva-se Grátis
+                </button>
             </div>
             <p class="form-note" id="form-msg"></p>
         </div>
